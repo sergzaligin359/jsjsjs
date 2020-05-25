@@ -1,8 +1,21 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 @import "commons/var.scss";
 
+@import "components/tablepage/header.scss";
+@import "components/tablepage/toolbar.scss";
+@import "components/tablepage/formula.scss";
+@import "components/tablepage/table.scss";
+
 *{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	background: $mainBackground;
+}
+
+.excel {
+	position: relative;
 }
