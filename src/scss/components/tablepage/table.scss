@@ -2,14 +2,29 @@
 @import "../../commons/mixin.scss";
 
 .excel__table {
-	outline: 1px solid green;
-	padding: 0 4px;
 	position: absolute;
-	top: $header-height + $toolbar-height;
+	top: $header-height + $toolbar-height + $formula-height;
 	right: 0;
 	left: 0;
-	height: $toolbar-height;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	overflow-x: auto;
+
+	& .row{
+
+	}
+
+	& .row-info{
+
+	}
+
+	& .row-data{
+
+	}
+
+	& .cell{
+
+		& .selected{
+
+		}
+	}
+
 }
