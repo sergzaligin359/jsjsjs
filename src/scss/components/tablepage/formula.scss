@@ -2,7 +2,6 @@
 @import "../../commons/mixin.scss";
 
 .excel__formula {
-	outline: 1px solid blue;
 	padding: 0 4px;
 	position: absolute;
 	top: $header-height + $toolbar-height;
@@ -12,7 +11,8 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-
+	border: 1px solid $border-color;
+	
 	& .info{
 		color: #000;
 		font-size: 18px;
